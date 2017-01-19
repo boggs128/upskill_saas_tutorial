@@ -20,12 +20,27 @@
         h1, h2, h3 {
          font-family: 'Open Sans' sans-serif;
         }
-      body, .navbar {
-  //Gradient provided by @_ighosh at uiGradients.com
-      background: #00c6ff; /* fallback for old browsers */
-      background: -webkit-linear-gradient(to left, #00c6ff , #0072ff); /* Chrome 10-25, Safari 5.1-6 */
-      background: linear-gradient(to left, #00c6ff , #0072ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+      .navbar {
+        border: none;
+      }
+.navbar, .home-callout {
+  background: rgba(113,93,91,1);
+    background: -moz-linear-gradient(left, rgba(113,93,91,1) 0%, rgba(113,93,91,1) 13%, rgba(238,32,39,1) 15%, rgba(213,35,32,1) 61%, rgba(212,28,49,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(113,93,91,1)), color-stop(13%, rgba(113,93,91,1)), color-stop(15%, rgba(238,32,39,1)), color-stop(61%, rgba(213,35,32,1)), color-stop(100%, rgba(212,28,49,1)));
+    background: -webkit-linear-gradient(left, rgba(113,93,91,1) 0%, rgba(113,93,91,1) 13%, rgba(238,32,39,1) 15%, rgba(213,35,32,1) 61%, rgba(212,28,49,1) 100%);
+    background: -o-linear-gradient(left, rgba(113,93,91,1) 0%, rgba(113,93,91,1) 13%, rgba(238,32,39,1) 15%, rgba(213,35,32,1) 61%, rgba(212,28,49,1) 100%);
+    background: -ms-linear-gradient(left, rgba(113,93,91,1) 0%, rgba(113,93,91,1) 13%, rgba(238,32,39,1) 15%, rgba(213,35,32,1) 61%, rgba(212,28,49,1) 100%);
+    background: linear-gradient(to right, rgba(113,93,91,1) 0%, rgba(113,93,91,1) 13%, rgba(238,32,39,1) 15%, rgba(213,35,32,1) 61%, rgba(212,28,49,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#715d5b', endColorstr='#d41c31', GradientType=1 );
 }
-.navbar {
-  border: none;
+
+.home-callout{
+  position: relative;
+  color: Gray;
+    min-height: 50px;
+    margin-top: -20px;
 }
+ h4 {
+     margin-bottom: 50px;
+ }
