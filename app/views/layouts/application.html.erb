@@ -18,11 +18,27 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="/" class="navbar-brand"><i class="fa-music"></i></i> Home</a>
+     
+      <!-- This following code snippet is our home page link in HTML
+      <a href="/" class="navbar-brand"><i class="fa fa-music"></i></i> Home</a>
+      -->
+      <!--The following code snippet is our homepage link in rails-->
+      <%= link_to "/", class: "navbar-brand" do %>
+      
+      <!--The following code snippet inserts an icon for our home page using rails-->
+      <i class="fa fa-music"></i> Home<% end %>
     </div>
+    
     <div class="collapse navbar-collapse" id="main-nav-collapse">
       <ul class="nav navbar-nav navbar-right">
+        
+        <!--This next snippet is an HTML link to our about page
         <li><a href="/about">About</a></li>
+        -->
+      
+      <!--This next snippet is out about page link in rails-->
+      <li><%= link_to "About", "/about" %></li>
+       
       </ul>
     </div><!-- /.navbar-collapse -->
   </div>
