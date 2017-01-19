@@ -15,16 +15,18 @@
          */
         
         @import 'bootstrap-sprockets';
-        @import 'bootstrap'; 
+        @import 'bootstrap';
+        @import 'font-awesome-sprockets';
+        @import 'font-awesome';
         
         h1, h2, h3 {
          font-family: 'Open Sans' sans-serif;
-        }
-     .navbar-default .navbar-brand {
-        color: black;
+}
+.navbar-default .navbar-brand {
+    color: black;
 }
 .navbar-default .navbar-brand:hover {
-        color: gray;
+    color: gray;
 }
 .navbar-default .navbar-nav > li > a {
     color: black;
@@ -32,16 +34,16 @@
 .navbar-default .navbar-nav > li > a:hover {
     color: gray;
 }
-      .navbar {
-        border: none;
-      }
+.navbar {
+    border: none;
+}
       
-      .bl-txt {
-        color: black;
-      }
-     .underline-txt {
-       text-decoration: underline;
-     }
+.bl-txt {
+    color: black;
+}
+.underline-txt {
+    text-decoration: underline;
+}
      
 .navbar, .home-callout {
   background: rgba(113,93,91,1);
@@ -62,4 +64,4 @@
 }
  h4 {
      margin-bottom: 50px;
- }
+}
