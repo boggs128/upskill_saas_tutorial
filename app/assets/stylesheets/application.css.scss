@@ -20,10 +20,29 @@
         h1, h2, h3 {
          font-family: 'Open Sans' sans-serif;
         }
-        
+     .navbar-default .navbar-brand {
+        color: black;
+}
+.navbar-default .navbar-brand:hover {
+        color: gray;
+}
+.navbar-default .navbar-nav > li > a {
+    color: black;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: gray;
+}
       .navbar {
         border: none;
       }
+      
+      .bl-txt {
+        color: black;
+      }
+     .underline-txt {
+       text-decoration: underline;
+     }
+     
 .navbar, .home-callout {
   background: rgba(113,93,91,1);
     background: -moz-linear-gradient(left, rgba(113,93,91,1) 0%, rgba(113,93,91,1) 13%, rgba(238,32,39,1) 15%, rgba(213,35,32,1) 61%, rgba(212,28,49,1) 100%);
@@ -35,9 +54,9 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#715d5b', endColorstr='#d41c31', GradientType=1 );
 }
 
-.home-callout{
+.home-callout {
   position: relative;
-  color: Gray;
+  color: gray;
     min-height: 50px;
     margin-top: -20px;
 }
