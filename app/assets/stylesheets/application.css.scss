@@ -34,9 +34,17 @@
 .navbar-default .navbar-nav > li > a:hover {
     color: gray;
 }
+
+// Nav Styles
 .navbar {
     border: none;
 }
+     
+.navbar-brand {
+    font-family:"Open Sans" , sans-serif;
+    font-weight: 800;
+}
+
       
 .bl-txt {
     color: black;
@@ -56,6 +64,20 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#715d5b', endColorstr='#d41c31', GradientType=1 );
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+background-color: white;
+} 
+
+.navbar-default .navbar-toggle {
+    border: 2px solid white;
+    &:hover, &:focus {
+        background-color: #ff3333;
+    }
+}
+
+
+
+// Home Page Styles
 .home-callout {
   position: relative;
   color: gray;
@@ -63,5 +85,6 @@
     margin-top: -20px;
 }
  h4 {
+     color: white;
      margin-bottom: 50px;
 }
